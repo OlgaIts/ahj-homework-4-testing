@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+body {
+ font-family: 'Zen Kaku Gothic New', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+h1,
+p {
+ margin: 0;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul,
+li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+}
+
+.container {
+ margin-top: 20px;
+ display: grid;
+ place-content: center;
+}
+
+.title {
+ margin-bottom: 50px;
+ font:
+  600 30px 'Zen Kaku Gothic New',
+  sans-serif;
+}
+
+.card-list {
+ display: flex;
+ align-items: center;
+ gap: 16px;
+ margin-bottom: 30px;
+}
+
+.img {
+ filter: grayscale(1);
+ transition: 1s;
+}
+
+.active {
+ filter: grayscale(0);
+}
+
+.input {
+ width: 70%;
+ padding: 13px 20px;
+ border: 1px solid #525252;
+ border-radius: 8px;
+ font:
+  400 16px 'Zen Kaku Gothic New',
+  sans-serif;
+ outline: none;
+}
+
+.input_valid {
+ border: 1px solid green;
+ background-color: hsla(101, 100%, 55%, 0.5);
+}
+
+.input_not_valid {
+ border: 1px solid red;
+ background-color: hsla(0, 100%, 51%, 0.3);
+}
+
+.btn {
+ padding: 13px 20px;
+ background-color: #3a54c7;
+ border: 1px solid #3a54c7;
+ font:
+  600 16px 'Zen Kaku Gothic New',
+  sans-serif;
+ color: #fff;
+ border-radius: 8px;
+ outline: none;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background-color: #152a86;
+}
+
+.result {
+ margin-top: 30px;
+ font:
+  400 24px 'Zen Kaku Gothic New',
+  sans-serif;
+}
